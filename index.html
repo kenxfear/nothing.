@@ -6,12 +6,11 @@
     <title>Nothings.</title>
     <style>
         html {
-            overflow: hidden; 
+            height: 100%;
+            overflow: hidden;
         }
-
         body {
-            height: 100vh;
-            min-height: 100vh;
+            height: 100%;
             background-color: white;
             margin: 0;
             padding: 0;
@@ -22,13 +21,11 @@
             align-items: center;
             text-align: center;
         }
-        
         .content {
-            font-size: 10vw;
+            font-size: 10vw; 
             line-height: 1.2;
             max-width: 90vw; 
         }
-
         @media (min-width: 1200px) {
             .content {
                 font-size: 60px;
@@ -40,5 +37,10 @@
     <div class="content">
         Nothings.
     </div>
+    <script>
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+        });
+    </script>
 </body>
 </html>
