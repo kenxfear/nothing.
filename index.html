@@ -5,35 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nothings.</title>
     <style>
-        /* CSS untuk tampilan dasar */
         body {
-            /* Pastikan halaman menempati 100% tinggi viewport */
             min-height: 100vh;
             background-color: white;
             margin: 0;
             padding: 0;
             color: black;
             font-family: Arial, sans-serif;
-
-            /* Flexbox untuk menengahkan konten secara vertikal dan horizontal */
             display: flex;
-            justify-content: center; /* Tengahkan horizontal */
-            align-items: center;    /* Tengahkan vertikal */
+            justify-content: center;
+            align-items: center;
             text-align: center;
         }
-
-        /* Kelas untuk teks */
         .content {
-            /* Teks akan menggunakan ukuran yang berbeda tergantung lebar layar */
-            font-size: 5vw; /* Ukuran font berdasarkan 5% dari lebar viewport (vw = viewport width) */
+            font-size: 5vw;
             line-height: 1.2;
         }
-
-        /* MEDIA QUERY untuk layar yang sangat besar (Opsional) */
         @media (min-width: 1200px) {
             .content {
-                /* Untuk layar desktop yang sangat besar, kita batasi ukuran font */
-                font-size: 60px; /* 60px adalah batas maksimum ukuran font */
+                font-size: 60px;
             }
         }
     </style>
