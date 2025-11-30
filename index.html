@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nothings.</title>
     <style>
+        html {
+            overflow: hidden; 
+        }
+
         body {
+            height: 100vh; 
             min-height: 100vh;
             background-color: white;
             margin: 0;
@@ -17,10 +22,13 @@
             align-items: center;
             text-align: center;
         }
+        
         .content {
             font-size: 5vw;
             line-height: 1.2;
+            max-width: 90vw; 
         }
+
         @media (min-width: 1200px) {
             .content {
                 font-size: 60px;
